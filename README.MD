@@ -16,7 +16,7 @@ Analisis dilakukan dengan dua pendekatan utama:
   - **Machine Learning**:  
     - **TF-IDF (Term Frequency – Inverse Document Frequency)** dengan **Random Forest** dan **Logistic Regression**  
     - **Word2Vec Embedding** dengan **SVM** dan **Logistic Regression**  
-- **Evaluasi**: Membandingkan performa kedua pendekatan berdasarkan metrik akurasi, presisi, recall, dan F1-score.  
+- **Evaluasi**: Membandingkan performa kedua pendekatan berdasarkan metrik akurasi 
 
 ---
 
