@@ -13,9 +13,9 @@ Analisis dilakukan dengan dua pendekatan utama:
 - **Preprocessing**: Pembersihan data teks (case folding, stopword removal, tokenisasi, stemming, dll.).  
 - **Metode Analisis**:
   - **Lexicon-based**: Menghitung skor sentimen berdasarkan kamus lexicon.  
-  - **Machine Learning**: Menggunakan algoritma klasifikasi dengan representasi fitur:
-    - **TF-IDF (Term Frequency – Inverse Document Frequency)**
-    - **Word2Vec Embedding**  
+  - **Machine Learning**:  
+    - **TF-IDF (Term Frequency – Inverse Document Frequency)** dengan **Random Forest** dan **Logistic Regression**  
+    - **Word2Vec Embedding** dengan **SVM** dan **Logistic Regression**  
 - **Evaluasi**: Membandingkan performa kedua pendekatan berdasarkan metrik akurasi, presisi, recall, dan F1-score.  
 
 ---
@@ -80,10 +80,26 @@ Setelah preprocessing, DataFrame akan memiliki beberapa kolom tambahan:
 3. **Analisis Sentimen**  
    - **Lexicon-based**: Skor sentimen dihitung menggunakan kamus lexicon.  
    - **Machine Learning**:  
-     - Representasi teks: **TF-IDF** dan **Word2Vec**  
-     - Algoritma klasifikasi: (contoh: Logistic Regression, SVM, Random Forest)  
+     - **TF-IDF + Random Forest**  
+     - **TF-IDF + Logistic Regression**  
+     - **Word2Vec + SVM**  
+     - **Word2Vec + Logistic Regression**  
 
 4. **Evaluasi Model**  
    Menggunakan metrik:
    - Accuracy  
+---
 
+## 📊 Hasil Analisis (contoh, silakan sesuaikan)
+- **TF-IDF + Random Forest**: Akurasi sekitar 90%  
+- **TF-IDF + Logistic Regression**: Akurasi sekitar 92%  
+- **Word2Vec + SVM**: Akurasi sekitar 86%  
+- **Word2Vec + Logistic Regression**: Akurasi sekitar 87%  
+
+---
+
+## 🚀 Cara Menjalankan Proyek
+### 1. Clone Repository
+```bash
+git clone https://github.com/username/analisis-sentimen-ipusnas.git
+cd analisis-sentimen-ipusnas
