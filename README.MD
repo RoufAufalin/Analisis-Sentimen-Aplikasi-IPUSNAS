@@ -86,21 +86,4 @@ Setelah preprocessing, DataFrame akan memiliki beberapa kolom tambahan:
 4. **Evaluasi Model**  
    Menggunakan metrik:
    - Accuracy  
-   - Precision  
-   - Recall  
-   - F1-Score  
 
----
-
-## 📊 Hasil Analisis (contoh, silakan sesuaikan)
-- **Lexicon-based**: Akurasi sekitar XX%  
-- **TF-IDF + ML**: Akurasi sekitar XX%  
-- **Word2Vec + ML**: Akurasi sekitar XX%  
-
----
-
-## 🚀 Cara Menjalankan Proyek
-### 1. Clone Repository
-```bash
-git clone https://github.com/username/analisis-sentimen-ipusnas.git
-cd analisis-sentimen-ipusnas
